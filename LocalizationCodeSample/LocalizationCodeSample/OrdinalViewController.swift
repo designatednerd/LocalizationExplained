@@ -20,8 +20,7 @@ class OrdinalViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = NSLocalizedString("ordinalvc.title",
-            comment: "Title for a list of ordinal numbers")
+        self.title = LocalizedStrings.ordinalVCTitle
     }
 }
 

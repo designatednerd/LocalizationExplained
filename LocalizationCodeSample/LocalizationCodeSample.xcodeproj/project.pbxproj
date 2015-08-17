@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		332DC2761B823B3200FCEC88 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 332DC2741B823B3200FCEC88 /* Main.strings */; };
+		332DC2791B82459300FCEC88 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332DC2781B82459300FCEC88 /* LocalizedStrings.swift */; };
 		339F52751B8223B40005A8BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 339F52731B8223B40005A8BC /* Localizable.strings */; };
 		339F52781B822FD90005A8BC /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F52771B822FD90005A8BC /* ControlsViewController.swift */; };
 		33F02C751B8218140083855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C741B8218140083855D /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		332DC2751B823B3200FCEC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Main.strings; sourceTree = "<group>"; };
 		332DC2771B823B3D00FCEC88 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		332DC2781B82459300FCEC88 /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		339F52741B8223B40005A8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		339F52761B8224390005A8BC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		339F52771B822FD90005A8BC /* ControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				33F02C741B8218140083855D /* AppDelegate.swift */,
 				339F52771B822FD90005A8BC /* ControlsViewController.swift */,
+				332DC2781B82459300FCEC88 /* LocalizedStrings.swift */,
 				33F02C761B8218140083855D /* OrdinalViewController.swift */,
 				339F52731B8223B40005A8BC /* Localizable.strings */,
 				33F02C7A1B8218140083855D /* Main.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				33F02C771B8218140083855D /* OrdinalViewController.swift in Sources */,
 				33F02C751B8218140083855D /* AppDelegate.swift in Sources */,
+				332DC2791B82459300FCEC88 /* LocalizedStrings.swift in Sources */,
 				339F52781B822FD90005A8BC /* ControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
