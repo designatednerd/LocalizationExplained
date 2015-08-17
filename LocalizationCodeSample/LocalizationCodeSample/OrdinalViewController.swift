@@ -21,7 +21,6 @@ class OrdinalViewController: UITableViewController {
         super.viewDidLoad()
         
         self.title = NSLocalizedString("ordinalvc.title",
-            value: "Ordinal Numbers",
             comment: "Title for a list of ordinal numbers")
     }
 }

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizationCodeSample
+
+  Created by Ellen Shapiro on 8/17/15.
+  Copyright © 2015 Designated Nerd Software. All rights reserved.
+*/
+
+/* Title for a list of ordinal numbers */
+"ordinalvc.title" = "Nombres Ordinaux";
