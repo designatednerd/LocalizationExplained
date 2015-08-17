@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		339F52751B8223B40005A8BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 339F52731B8223B40005A8BC /* Localizable.strings */; };
+		339F52781B822FD90005A8BC /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F52771B822FD90005A8BC /* ControlsViewController.swift */; };
 		33F02C751B8218140083855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C741B8218140083855D /* AppDelegate.swift */; };
 		33F02C771B8218140083855D /* OrdinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C761B8218140083855D /* OrdinalViewController.swift */; };
 		33F02C7C1B8218140083855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F02C7A1B8218140083855D /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		339F52741B8223B40005A8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		339F52761B8224390005A8BC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		339F52771B822FD90005A8BC /* ControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
 		33F02C711B8218140083855D /* LocalizationCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F02C741B8218140083855D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33F02C761B8218140083855D /* OrdinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinalViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				33F02C741B8218140083855D /* AppDelegate.swift */,
+				339F52771B822FD90005A8BC /* ControlsViewController.swift */,
 				33F02C761B8218140083855D /* OrdinalViewController.swift */,
 				339F52731B8223B40005A8BC /* Localizable.strings */,
 				33F02C7A1B8218140083855D /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				33F02C771B8218140083855D /* OrdinalViewController.swift in Sources */,
 				33F02C751B8218140083855D /* AppDelegate.swift in Sources */,
+				339F52781B822FD90005A8BC /* ControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,3 +8,21 @@
 
 /* Title for a list of ordinal numbers */
 "ordinalvc.title" = "Ordinal Numbers";
+
+/* Format for the value of the UISlider */
+"controlsvc.slidervalueformat" = "UISlider value: %.2f";
+
+/* Switch on - From Storyboard */
+"On" = "On";
+
+/* Switch off - From Storyboard */
+"Off" = "Off";
+
+/* First section in segmented control - From Storyboard */
+"First" = "First";
+
+/* Second section in segmented control - From Storyboard */
+"Second" = "Second";
+
+/* Third section in segmented control - From Storyboard */
+"Third" = "Third";
