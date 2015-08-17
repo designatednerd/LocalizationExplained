@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		33F02C751B8218140083855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C741B8218140083855D /* AppDelegate.swift */; };
-		33F02C771B8218140083855D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C761B8218140083855D /* MasterViewController.swift */; };
-		33F02C791B8218140083855D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C781B8218140083855D /* DetailViewController.swift */; };
+		33F02C771B8218140083855D /* OrdinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C761B8218140083855D /* OrdinalViewController.swift */; };
 		33F02C7C1B8218140083855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F02C7A1B8218140083855D /* Main.storyboard */; };
 		33F02C7E1B8218140083855D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F02C7D1B8218140083855D /* Assets.xcassets */; };
 		33F02C811B8218140083855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F02C7F1B8218140083855D /* LaunchScreen.storyboard */; };
 		33F02C8C1B8218140083855D /* LocalizationCodeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C8B1B8218140083855D /* LocalizationCodeSampleTests.swift */; };
 		33F02C971B8218140083855D /* LocalizationCodeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02C961B8218140083855D /* LocalizationCodeSampleUITests.swift */; };
-		33F02CA51B8218980083855D /* OrdinalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F02CA41B8218980083855D /* OrdinalDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +36,7 @@
 /* Begin PBXFileReference section */
 		33F02C711B8218140083855D /* LocalizationCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F02C741B8218140083855D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33F02C761B8218140083855D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		33F02C781B8218140083855D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		33F02C761B8218140083855D /* OrdinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinalViewController.swift; sourceTree = "<group>"; };
 		33F02C7B1B8218140083855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F02C7D1B8218140083855D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33F02C801B8218140083855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +47,6 @@
 		33F02C921B8218140083855D /* LocalizationCodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationCodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F02C961B8218140083855D /* LocalizationCodeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationCodeSampleUITests.swift; sourceTree = "<group>"; };
 		33F02C981B8218140083855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33F02CA41B8218980083855D /* OrdinalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdinalDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				33F02C741B8218140083855D /* AppDelegate.swift */,
-				33F02C761B8218140083855D /* MasterViewController.swift */,
-				33F02C781B8218140083855D /* DetailViewController.swift */,
+				33F02C761B8218140083855D /* OrdinalViewController.swift */,
 				33F02C7A1B8218140083855D /* Main.storyboard */,
 				33F02C7D1B8218140083855D /* Assets.xcassets */,
 				33F02C7F1B8218140083855D /* LaunchScreen.storyboard */,
 				33F02C821B8218140083855D /* Info.plist */,
-				33F02CA41B8218980083855D /* OrdinalDataSource.swift */,
 			);
 			path = LocalizationCodeSample;
 			sourceTree = "<group>";
@@ -261,9 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F02C791B8218140083855D /* DetailViewController.swift in Sources */,
-				33F02C771B8218140083855D /* MasterViewController.swift in Sources */,
-				33F02CA51B8218980083855D /* OrdinalDataSource.swift in Sources */,
+				33F02C771B8218140083855D /* OrdinalViewController.swift in Sources */,
 				33F02C751B8218140083855D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +481,7 @@
 				33F02C9D1B8218140083855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33F02C9E1B8218140083855D /* Build configuration list for PBXNativeTarget "LocalizationCodeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +490,7 @@
 				33F02CA01B8218140083855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33F02CA11B8218140083855D /* Build configuration list for PBXNativeTarget "LocalizationCodeSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +499,7 @@
 				33F02CA31B8218140083855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
