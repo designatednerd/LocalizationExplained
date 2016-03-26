@@ -20,7 +20,7 @@ class OrdinalViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = LocalizedStrings.ordinalVCTitle
+        self.title = LocalizedString.ordinalVCTitle
     }
 }
 

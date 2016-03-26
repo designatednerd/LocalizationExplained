@@ -24,7 +24,7 @@ class ControlsViewController: UIViewController {
     //MARK: - Helper functions
     
     private func updateSliderValueLabel() {
-        let localizedValue = NSString.localizedStringWithFormat(LocalizedStrings.sliderValueFormat,
+        let localizedValue = NSString.localizedStringWithFormat(LocalizedString.sliderValueFormat,
             sliderControl.value) as String        
         sliderValueLabel.text = localizedValue
     }

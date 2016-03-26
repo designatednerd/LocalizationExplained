@@ -8,7 +8,9 @@
 
 import Foundation
 
-struct LocalizedStrings {
+//Use an enum so this can't be instantiated on its own
+enum LocalizedString {
+    
     //MARK: - Ordinal VC
     static let ordinalVCTitle = NSLocalizedString("ordinalvc.title",
         comment: "Title for a list of ordinal numbers")
